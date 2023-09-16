@@ -1,5 +1,7 @@
 # codsoft-web-dev-tasks
 
+Hi, This repo includes all the tasks I have done for the web development internship at codsoft
+
 TASK 1 : LANDING PAGE
 TASK 2 : CALCULATOR
 TASK 3 : SPOTIFY CLONE
