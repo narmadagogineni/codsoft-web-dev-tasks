@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player : Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="spotify-logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-opt">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-opt opac">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-opt nav-opt opac">
+                        <i class="fa-solid fa-sliders"></i>
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icon opac">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div> 
+                    <div class="box box2">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="nav-left">
+                    <i class="fa-solid fa-angle-left"></i>
+                    <i id="hide" class="fa-solid fa-angle-right"></i>
+                </div>
+                <div class="nav-right">
+                    <button id="hide" class="badge">Explore Premium</button>
+                    <button class="badge dark-badge"><i class="fa-regular fa-circle-down"></i> Install App</button>
+                    <i id="user" class="fa-regular fa-user"></i>
+                </div>
+            </div>
+            
+            <h2>Recently played</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="arjith.webp">
+                    <p class="card-title">Top 50-Global</p>
+                    <p class="card-info">Your daily updates of the most played tracks...</p>
+                </div>
+            </div>
+
+            <h2>Recently played</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="img7.avif">
+                    <p class="card-title">Most Popular</p>
+                    <p class="card-info">Your daily updates of the most played tracks...</p>
+                </div>
+                <div class="card">
+                    <img src="img1.avif">
+                    <p class="card-title">Bollywood songs</p>
+                    <p class="card-info">Your daily updates of the most played tracks...</p>
+                </div>
+                <div class="card">
+                    <img src="img2.avif ">
+                    <p class="card-title">Tollywood songs</p>
+                    <p class="card-info">Your daily updates of the most played tracks...</p>
+                </div>
+                <div class="card">
+                    <img src="img3.avif ">
+                    <p class="card-title">Top 20 Telugu songs</p>
+                    <p class="card-info">Your daily updates of the most played tracks...</p>
+                </div>
+                <div class="card">
+                    <img src="img4.avif ">
+                    <p class="card-title">Musical melodies</p>
+                    <p class="card-info">Your daily updates of the most played tracks...</p>
+                </div>
+            </div>
+
+            <h2>Featured Charts</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="img5.avif">
+                    <p class="card-title">Old songs</p>
+                    <p class="card-info">Your daily updates of the most played tracks...</p>
+                </div>
+                <div class="card">
+                    <img src="img6.avif">
+                    <p class="card-title">Pops songs</p>
+                    <p class="card-info">Your daily updates of the most played tracks...</p>
+                </div>
+                <div class="card">
+                    <img src="img7.avif">
+                    <p class="card-title">2000's songs</p>
+                    <p class="card-info">Your daily updates of the most played tracks...</p>
+                </div>
+                <div class="card">
+                    <img src="img2.avif">
+                    <p class="card-title">Latest songs</p>
+                    <p class="card-info">Your daily updates of the most played tracks...</p>
+                </div>
+                <div class="card">
+                    <img src="img3.avif">
+                    <p class="card-title">Top songs today   </p>
+                    <p class="card-info">Your daily updates of the most played tracks...</p>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="below">
+                    <h4>Company</h4>
+                    <p>About</p>
+                    <p>Jobs</p>
+                    <p>For the Record</p>
+                </div>
+                <div class="below">
+                    <h4>Communities</h4>
+                    <p>For artists</p>
+                    <p>Developers</p>
+                    <p>Advertising</p>
+                    <p>Investing</p>
+                    <p>Vendors</p>
+                </div>
+                <div class="below">
+                    <h4>Useful Links</h4>
+                    <p>Support</p>
+                    <p>Free Mobile App</p>
+                </div>
+            </div>
+            <div class="foot-line">
+                <div class="line"></div>
+            </div> 
+            <div class="copyright">
+                <p>© 2023 Spotify AB</p>
+                <div class="foot-icon">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+                
+            </div>     
+            <br>
+            <br><br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br> 
+            
+        </div>
+        <div class="music-player">
+            <div class="left-controls">
+                <div class="para">
+                    <p id="bold">Daylight</p>
+                    <p>David Kushnoor</p>
+                </div>
+                <div class="para-icon">
+                    <i class="fa-regular fa-heart opac"></i>
+                    <i class="fa-regular fa-rectangle-list opac"></i>
+                </div>
+            </div>
+            <div class="player">
+                <div class="player-controls">
+                    <i class="fa-solid fa-shuffle opac"></i>
+                    <i class="fa-solid fa-backward-step opac"></i>
+                    <i class="fa-solid fa-circle-play" style="font-size: 30px;"></i>
+                    <i class="fa-solid fa-forward-step opac"></i>
+                    <i class="fa-solid fa-repeat opac"></i>
+                </div>
+                <div class="playback-bar">
+                    <span  class="current-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    <span  class="total-time">04:40</span>
+                </div>
+            </div>
+            <div class="right-controls">
+                <div class="right-icons">
+                    <i class="fa-regular fa-square-caret-right opac"></i>
+                    <i class="fa-solid fa-paintbrush opac"></i>
+                    <i class="fa-solid fa-bars opac"></i>
+                    <i class="fa-solid fa-volume-high opac"></i>
+                    <input type="range" min="0" max="100" class="volume-bar" step="1">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
